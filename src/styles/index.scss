@@ -1,0 +1,32 @@
+@import "./vars/index";
+@import "./functions/index";
+@import "./mixins/index";
+@import "./placeholders/index";
+@import "./responsive/bootstrap";
+@import "./animated/index";
+@import "./modules/index";
+@import "./pages/index";
+
+body, html {
+  background-color: #fafbfd;
+}
+
+.footer-Primary {
+  color: $white;
+
+  span {
+    margin-right: 5px;
+  }
+
+  a {
+    color: $primary;
+  }
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__current-month {
+  display: block;
+}

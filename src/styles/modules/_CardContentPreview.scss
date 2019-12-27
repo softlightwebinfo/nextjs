@@ -1,0 +1,26 @@
+.CardContentPreview {
+  padding: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 4px -4px black;
+  -moz-box-shadow: 0px 3px 4px -4px black;
+  box-shadow: 0px 3px 4px -4px black;
+
+  > .softTitle {
+    .softIcon {
+      margin-right: 5px;
+    }
+  }
+
+  .softFlexGroup {
+    flex-wrap: wrap;
+
+    .softFlexItem {
+      flex: 0 0 calc((100% / 4) - 24px);
+    }
+  }
+
+
+  &__preview {
+
+  }
+}

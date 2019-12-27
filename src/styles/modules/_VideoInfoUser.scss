@@ -1,0 +1,60 @@
+.VideoInfoUser {
+  border-radius: 5px;
+  @include BoxShadow();
+
+  &__avatar {
+    display: flex;
+    align-items: center;
+
+    .softAvatar {
+      margin-right: 10px;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+
+      .softTextIcon .softText {
+        font-size: 12px;
+      }
+      .softIcon{
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+
+  .softButton {
+    font-size: 14px;
+    height: 20px;
+    width: fit-content;
+
+    & + .softButton {
+      margin-top: 5px;
+    }
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__visualizations {
+    text-align: right;
+  }
+
+  &__visualization {
+    color: grey;
+    font-size: 12px;
+  }
+
+  &__date {
+    color: grey;
+    font-size: 12px;
+  }
+
+  + .VideoBarInfo {
+    margin-top: -2px;
+    border-top: 1px solid gainsboro;
+  }
+}

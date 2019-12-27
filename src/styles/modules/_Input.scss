@@ -1,0 +1,38 @@
+.Input {
+  position: relative;
+
+  &__input {
+
+  }
+
+  &__max-input {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #666f74;
+    font-size: 14px;
+    line-height: 18px;
+    pointer-events: none;
+  }
+}
+
+.softFieldText,
+.softTextArea,
+.softSelect,
+.softComboBox__inputWrap.softComboBox__inputWrap-isClearable {
+  font-family: Krub, sans-serif;
+  background: #e2e7ea;
+  color: #666f74;
+  font-size: 16px;
+  line-height: 25px;
+  border: 1px solid #e2e7ea;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+  width: 100%;
+  font-weight: 500;
+  letter-spacing: .01em;
+  border-radius: 3px;
+  -webkit-transition: border-color .2s linear;
+  transition: border-color .2s linear;
+}

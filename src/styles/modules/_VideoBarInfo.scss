@@ -1,0 +1,35 @@
+.VideoBarInfo {
+  @include BoxShadow();
+  display: flex;
+  justify-content: space-between;
+
+  .softButtonEmpty {
+    color: black;
+
+    svg {
+      fill: black;
+    }
+  }
+
+  > div:first-child {
+    display: flex;
+    align-items: center;
+
+    > * + * {
+      margin-left: 10px;
+    }
+  }
+
+  > div:last-child {
+    display: flex;
+    align-items: center;
+
+    > * + * {
+      margin-left: 10px;
+    }
+  }
+
+  &-share {
+    @include BoxShadow();
+  }
+}

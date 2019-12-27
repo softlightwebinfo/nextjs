@@ -1,0 +1,43 @@
+.TypeCategoriesSelect {
+  &__button {
+    background-color: #e2e7ea;
+    border-radius: 3px;
+    border: 2px solid #e2e7ea;
+    display: block;
+    padding-top: 28px;
+    padding-bottom: 19px;
+    -webkit-transition: border .2s linear;
+    transition: border .2s linear;
+    text-decoration: none;
+    outline: 0;
+
+    &--active, &:hover {
+      border-color: #2172cd;
+    }
+  }
+
+  &__icon {
+    display: block;
+    text-align: center;
+
+    svg {
+      max-width: 78px;
+      max-height: 78px;
+      fill: #666e74;
+    }
+  }
+
+  &__text {
+    color: #182730;
+    display: block;
+    text-align: center;
+    margin-top: 21px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: .01em;
+  }
+
+  &__categories {
+
+  }
+}

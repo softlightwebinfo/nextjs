@@ -1,0 +1,71 @@
+.CardVideoPreview {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  $imageH: 167px;
+  flex-direction: column;
+  color: black;
+
+  img {
+    width: 100%;
+    height: $imageH;
+  }
+
+  time {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.40);
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .softTitle {
+    line-height: inherit;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+
+  .softTextIcon {
+    .softText {
+      font-size: 12px;
+    }
+  }
+
+  .softBadge {
+    .softIcon {
+      margin-right: 2px;
+    }
+
+    &--danger {
+      position: absolute;
+      right: 10px;
+      top: $imageH - 30px;
+      color: white;
+    }
+  }
+
+  @for $i from 1 through 12 {
+    &:nth-child(#{$i}) {
+      .softBadge--danger {
+        animation-delay: #{$i}s
+      }
+    }
+  }
+
+  &__group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .softBadge {
+      margin-right: 5px;
+    }
+  }
+}

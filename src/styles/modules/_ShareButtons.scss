@@ -1,0 +1,27 @@
+.ShareButtons {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+
+  a {
+    background-color: gainsboro;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    &:hover {
+      opacity: .7;
+      cursor: pointer;
+    }
+  }
+
+  li + li {
+    margin-left: 5px;
+  }
+
+  svg {
+    font-size: 18px;
+  }
+}

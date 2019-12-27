@@ -1,0 +1,17 @@
+{
+  "hello-world": "Hello, World!",
+  "goto-second-page": "Goto Second Page",
+  "change-language": "Change Language",
+  "welcome": "Welcome To Second Page",
+  "go-back": "Go Back",
+  "menu-top": {
+    "about": "About",
+    "contact": "Contact",
+    "signup": "Sign Up",
+    "signin": "Sign In"
+  },
+  "tends": "Tending",
+  "goToHome": "Go to home page",
+  "imSorry": "I'm sorry",
+  "noVideo": "The corresponding video was not found, the video is hidden or has been deleted, please try again later"
+}

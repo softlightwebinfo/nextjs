@@ -1,0 +1,21 @@
+.Comments {
+
+}
+
+.Comment {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .softAvatar {
+    margin-right: 10px;
+  }
+}

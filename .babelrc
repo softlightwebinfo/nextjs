@@ -1,0 +1,49 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "transform-runtime": {
+          "useESModules": false
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./"
+        ],
+        "alias": {
+          "@components": "./src/components",
+          "@containers": "./src/containers",
+          "@store": "./src/store",
+          "@scss": "./src/scss",
+          "@config": "./src/config",
+          "@root": "./",
+          "@styles": "./src/styles",
+          "@utils": "./src/utils",
+          "@static": "./static",
+          "@hoc": "./src/hoc",
+          "@src": "./src",
+          "@pages": "./pages",
+          "@server": "./server"
+        }
+      }
+    ],
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ]
+  ]
+}

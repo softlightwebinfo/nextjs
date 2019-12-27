@@ -1,0 +1,83 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "allowJs": true,
+    "target": "esnext",
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018",
+      "dom"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "noEmit": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@containers/*": [
+        "./src/containers/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
+      ],
+      "@scss/*": [
+        "./src/scss/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@models/*": [
+        "./src/models/*"
+      ],
+      "@static/*": [
+        "./static/*"
+      ],
+      "@hoc/*": [
+        "./src/hoc/*"
+      ],
+      "@src/*": [
+        "./src/*"
+      ],
+      "@pages/*": [
+        "./pages/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ],
+      "@server/*": [
+        "./server/*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./build",
+    "./.next",
+    "./server"
+  ]
+}

@@ -1,0 +1,19 @@
+.MainNav {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+
+  > .MegaMenu {
+    > .MegaMenu__sub-menu {
+      top: 100%;
+      left: 0;
+    }
+  }
+}

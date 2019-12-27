@@ -1,0 +1,17 @@
+{
+  "hello-world": "Hola mundo!",
+  "goto-second-page": "Ir a la segunda pagina",
+  "change-language": "Cambiar lenguaje",
+  "welcome": "Bienvenido a la segunda pagina",
+  "go-back": "Volver atras",
+  "menu-top": {
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "signup": "Registrarse",
+    "signin": "Iniciar sesión"
+  },
+  "tends": "Tendencias",
+  "goToHome": "Ir a la página principal",
+  "imSorry": "Lo siento",
+  "noVideo": "No se ha encontrado el video correspondiente, el video esta en oculto o se ha eliminado, por favor, vuelve a probar mas tarde"
+}

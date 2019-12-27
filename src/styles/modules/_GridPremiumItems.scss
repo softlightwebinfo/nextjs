@@ -1,0 +1,33 @@
+.GridPremiumItems {
+  > .softFlexItem {
+    &:first-child {
+      margin-right: 0;
+    }
+
+    &:last-child {
+      margin-left: 0;
+      padding: 0;
+
+      > .softFlexGrid {
+        flex: 1;
+
+        &:last-child {
+          .softFlexItem {
+            &:first-child {
+              margin-right: 0;
+            }
+
+            &:last-child {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .softFlexItem {
+    padding: 1px;
+    flex: 1;
+  }
+}

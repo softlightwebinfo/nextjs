@@ -1,0 +1,23 @@
+.softLabTag {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #888;
+  min-height: 40px;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 5px 20px;
+
+  &-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+  }
+}

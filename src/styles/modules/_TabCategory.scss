@@ -1,0 +1,30 @@
+.TabCategory {
+  color: #e71d69;
+
+  &__tabs {
+    flex: 1;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    color: $gray;
+  }
+
+  &__title {
+    color: inherit;
+    font-size: 18px;
+    line-height: 1.333333;
+
+    padding-right: 25px;
+    font-weight: bold;
+  }
+
+  .softTab {
+    color: black;
+
+    &-isSelected {
+      color: $blue;
+    }
+  }
+}
